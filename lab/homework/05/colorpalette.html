@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script type="text.javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Color Palette</title>
+	<style>
+
+		body {
+			display: flex;
+			flex-direction: row;
+			margin: 0px;
+		}
+
+		div{
+			width: 100vw;
+			height: 100vh;
+		}
+
+	</style>
+</head>
+
+
+<body>
+	<script>
+
+		var strips = 0;
+		var numbers = Math.floor(Math.random() * 10);
+
+		while(strips < numbers){
+			let column = document.createElement("div");
+			document.body.appendChild(column);
+
+			strips = strips + 1;
+
+			var hue = Math.floor(Math.random() * 360);
+			var saturation = Math.floor(Math.random() * 100);
+			var light = Math.floor(Math.random() * 100);
+
+
+			column.style.backgroundColor = "hsl("+hue+","+saturation+"%,"+light+"%)";
+			document.body.appendChild(column);
+		}
+
+		
+
+
+	
+
+	</script>
+
+
+</body>
+</html>
