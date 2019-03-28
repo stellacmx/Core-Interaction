@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script>
+
+		var typewriter = "";
+
+		//document.onkeypress only does characters
+
+		document.onkeydown = function(event){
+			console.log(event);
+			typewriter = typewriter + event.key;
+			document.body.innerHTML = typewriter;
+
+			if(event.key == "z") {
+				document.body.style.backgroundColor = "grey";
+			}
+			if(event.key == "h") {
+				document.body.style.backgroundColor = "lightgrey";
+			}
+			if(event.key == "y") {
+				document.body.style.backgroundColor = "black";
+			}
+			}
+
+	</script>
+
+</body>
+</html>

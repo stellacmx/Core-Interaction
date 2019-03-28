@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>review</title>
+</head>
+<body>
+
+	<script>
+		
+		//the 7 things that can go in a variable: 
+		
+		var nothing = undefined;
+		var bool = true;
+		var string = "hi";
+		var number = 3.14;
+		var array = [];
+		var object = {};
+		var func = function(argument){};
+
+
+		var weatherArray = [
+			5, 20, false
+		];
+
+		console.log(weatherArray);
+		console.log(weatherArray[1]);
+
+		//we dont know what the variables present, and this is what the objects solve
+
+
+		//function can functino differently by arguments
+
+
+		var weather = {
+			temperature : 5,
+			humidity: 20,
+			raining: false
+		};
+
+		console.log(weather["humidity"]);
+		console.log(weather.humidity); //dot means go inside something
+		//console is an object, log is the function
+
+		console.log(console);
+		console["log"]("hello");
+
+
+
+
+		// level 1: "nyc", "shenzhen"
+		// level 2: "temperature"
+		// level 3 for temperature only: array of numbers
+
+		var weathers = {
+			nyc : {
+				temp : [5, 9, 1],
+				humidity: 50,
+				raining: false
+			},
+
+			shenzhen : {
+				temp : [14, 12, 10],
+				humidity: 50,
+				raining: false
+			}
+		};
+
+		console.log(weathers.shenzhen.temp[2]);
+
+
+
+	</script>
+
+</body>
+</html>
