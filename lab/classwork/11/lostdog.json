@@ -1,0 +1,21 @@
+{
+	"instructions": 
+	"Identify the color of the necklace your dog was wearing on the day you lost him. If you don't know the names of the colors, translate them in Google Traslate.",
+
+
+	"thecolor": "#ffc132",
+
+
+	"Orenji": "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog11.json",
+	"Murasaki": "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog05.json",
+	"Ao": "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog98.json",
+	"Aka": "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog7.json",
+	"Midori": "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog58.json",
+	"Kuro": "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog44.json",
+	"Cha-iro": "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog37.json",
+	"Pinku" : "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog14.json",
+	"Ki-iro" "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog23.json":,
+	"Niji" : "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/11/lostdog62.json"
+}
+
+
